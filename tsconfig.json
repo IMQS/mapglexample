@@ -1,0 +1,48 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"target": "es5",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"downlevelIteration": true,
+		"allowSyntheticDefaultImports": true,
+		"importHelpers": true,
+		"typeRoots": [
+			"./node_modules/@types",
+			"./node_modules/@imqs/types",
+			"./types"
+		],
+		"lib": [
+			"dom",
+			"es5",
+			"es2016",
+			"es2017.object",
+			"scripthost"
+		],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"src/*"
+			],
+			"~/*": [
+				"src/*"
+			]
+		}
+	},
+	"exclude": [
+		"./index.ts",
+		"./**/*.spec.ts"
+	],
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.vue"
+	]
+}
