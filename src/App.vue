@@ -1,8 +1,9 @@
 <template>
 	<div id="app">
 		<div class="nav">
-			<router-link to="/roadai">Home</router-link> |
-			<router-link to="/roadai/map">Map</router-link> |
+			<router-link to="/roadai">Home</router-link>&nbsp;|&nbsp;
+			<router-link to="/roadai/map">Map</router-link>&nbsp;|&nbsp;
+			<router-link to="/roadai/sandbox">Map Sandbox</router-link>&nbsp;|&nbsp;
 			<router-link to="/roadai/about">About</router-link>
 		</div>
 		<router-view />
@@ -36,7 +37,12 @@ export default class App extends Vue {
 .nav {
 	display: flex;
 	justify-content: center;
+	margin-top: 2px;
 	margin-bottom: 8px;
 	flex: 0 1 auto;
+	font-family: sans-serif;
+}
+.nav a {
+	text-decoration: none;
 }
 </style>

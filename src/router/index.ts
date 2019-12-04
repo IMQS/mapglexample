@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import MapView from '../views/MapView.vue';
+import MapSandbox from '../views/MapSandbox.vue';
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,11 @@ const routes = [
 		path: '/roadai/map',
 		name: 'map',
 		component: MapView
+	},
+	{
+		path: '/roadai/sandbox',
+		name: 'sandbox',
+		component: MapSandbox
 	},
 	{
 		path: '/roadai/about',
