@@ -1,7 +1,7 @@
 {
-    "name": "roadai",
+    "name": "roads",
     "version": "1.0.25",
-    "description": "roadai",
+    "description": "roads",
     "main": "index.js",
     "scripts": {
         "dev": "webpack-dev-server --config build/webpack.dev.conf.js --hot --mode development",
@@ -38,9 +38,9 @@
         "webpack-merge": "^4.2.2"
     },
     "dependencies": {
-        "@imqs/components": "^1.0.26",
-        "@imqs/map": "^1.0.28",
-        "@imqs/mapgl": "^1.0.28",
+        "@imqs/components": "^1.0.30",
+        "@imqs/map": "^1.0.30",
+        "@imqs/mapgl": "^1.0.31",
         "@types/geojson": "^7946.0.7",
         "@types/mapbox-gl": "^1.5.2",
         "element-ui": "^2.10.1",

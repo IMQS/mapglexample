@@ -21,8 +21,8 @@ module.exports = merge(baseConfig, {
                 secure: false,
                 changeOrigin: true,
                 bypass: function (req, res, proxyOptions) {
-                    if (req.path.indexOf('/roadai') === 0)
-                        return '/roadai';
+                    if (req.path.indexOf('/roads') === 0)
+                        return '/roads';
                     return null;
                 }
             },
@@ -31,7 +31,7 @@ module.exports = merge(baseConfig, {
             ignored: /node_modules\/[^(@imqs)]/
         },
         historyApiFallback: true,
-        publicPath: "/roadai",
+        publicPath: "/roads",
         contentBase: path.resolve(__dirname, '../static')
     },
 

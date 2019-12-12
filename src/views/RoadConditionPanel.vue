@@ -1,6 +1,7 @@
 <template>
 	<div>
-		<select v-model='mapThemeInternal'>
+		<select v-model='mapThemeInternal'
+				style='max-width: 400px'>
 			<option v-for='t of sortedThemes'
 					:selected='t == mapThemeInternal ? "selected" : ""'
 					:key='t'

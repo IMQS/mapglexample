@@ -1,10 +1,10 @@
 <template>
 	<div id="app">
 		<div class="nav">
-			<router-link to="/roadai">Home</router-link>&nbsp;|&nbsp;
-			<router-link to="/roadai/map">Map</router-link>&nbsp;|&nbsp;
-			<router-link to="/roadai/sandbox">Map Sandbox</router-link>&nbsp;|&nbsp;
-			<router-link to="/roadai/about">About</router-link>
+			<router-link to="/roads">Home</router-link>&nbsp;|&nbsp;
+			<router-link to="/roads/map">Map</router-link>&nbsp;|&nbsp;
+			<router-link to="/roads/sandbox">Map Sandbox</router-link>&nbsp;|&nbsp;
+			<router-link to="/roads/about">About</router-link>
 		</div>
 		<router-view />
 	</div>

@@ -18,7 +18,7 @@ module.exports = {
     output: {
         filename: '[name].js',
         chunkFilename: '[name].js',
-        publicPath: "/roadai",
+        publicPath: "/roads",
         path: path.resolve(__dirname, '../dist'),
     },
 
